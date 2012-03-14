@@ -18,6 +18,13 @@ public enum MirrorList implements Hosts {
             return "http://citylan.dl.sourceforge.net";
         }
         
+    },
+    FREEFRANCE{
+        @Override
+        public String getHost(){
+            return "http://voxel.dl.sourceforge.net";
+        }
     }
+    
     
 }
